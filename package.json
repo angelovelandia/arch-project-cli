@@ -1,0 +1,29 @@
+{
+  "name": "arch-project-cli",
+  "version": "1.0.0",
+  "description": "CLI to generate projects with atomic architecture (more to be added soon), routes, session context and more.",
+  "type": "module",
+  "bin": {
+    "create-project": "./bin/index.js"
+  },
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "vite",
+    "react",
+    "atomic",
+    "scaffolding",
+    "generador"
+  ],
+  "author": "Angelo Velandia",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.3.0",
+    "execa": "9.6.0",
+    "fs-extra": "11.3.0",
+    "inquirer": "9.1.4",
+    "minimist": "1.2.8"
+  }
+}
